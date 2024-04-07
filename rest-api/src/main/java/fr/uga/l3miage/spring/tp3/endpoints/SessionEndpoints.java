@@ -11,7 +11,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
-@Tag(name = "Gestion des session")
+@Tag(name = "Gestion des session", description = "Creation dune session dexamen")
 @RestController
 @RequestMapping("/api/sessions")
 public interface SessionEndpoints {

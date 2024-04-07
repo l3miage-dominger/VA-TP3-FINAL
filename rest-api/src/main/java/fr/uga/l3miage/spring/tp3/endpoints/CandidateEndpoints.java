@@ -10,7 +10,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
-@Tag(name = "Gestion des candidat")
+@Tag(name = "Gestion des candidat", description = "Recuperation de la moyenne d'un candidat")
 @RestController
 @RequestMapping("/api/candidates")
 public interface CandidateEndpoints {
